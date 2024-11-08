@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact form</title>
+   <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.min.css">
+   <style>
+      body{
+         background-color: rgb(248, 248, 248);
+      }
+      img{
+         width: 95%;
+      }
+      .account a{
+      padding: 5rem;
+      color: black;
+       
+      }
+    .form-control {
+      width: 100%;
+      margin-left: .25rem;
+   
+      margin-bottom: 3rem;
+      border-radius: none;
+      overflow: hidden;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 1px solid grey;
+     }
+     .form-check a{
+      padding-left: 15px;
+     }
+    
+     .logbtn{
+      margin-left: .75rem;
+      margin-bottom: 1rem;
+      width: 145px;
+     }
+     .icon i{
+      font-size: 20px;
+      padding-bottom: 2rem;
+      color: whitesmoke;
+     }
+     .card{
+      width: 60%;
+      border: none;
+      box-shadow: 00px 15px 25px  rgb(117, 115, 115);
+      outline: none;
+      overflow: hidden;
+      color: aliceblue;
+     }
+     .form{
+      background-color: rgb(154, 9, 142);
+      overflow: hidden;
+     }
+   </style>
+
+</head>
+<body>
+   <div class="container d-flex align-items-center justify-content-center min-vh-100">
+      <div class="card  ">
+         <div class="row">
+            <div class="col-md-6 bg-dangerimage">
+               <img src="./form/Login-amico.png" alt="login image">
+               <div class="account">
+                  <a href="#" >Create an account</a>
+               </div>
+            </div>
+            <!--image end-->
+            <div class="col-md-6 form">
+               <h3 class="text-left px-3 py-3">Login</h3>
+               <form>
+                  <div class="col-md-7">
+                     <input type="text" placeholder="Your Name" class="form-control">
+                  </div>
+                  <div class="col-md-7">
+                     <input type="password" placeholder="Password" class="form-control">
+                  </div>
+                  <div class="form-check mx-.25">
+                     <input type="checkbox">
+                     <label for="checkbox"><p> Remember me <a href="#" class="text-white">Forget Password?</a></p></label>
+
+                  </div>
+                  <button class="btn btn-light logbtn" type="button">Log in</button>
+               </form>
+               <div class="col-md-6 ">
+                  <p class="px-4">or login with:</p>
+                  <div class="col-md-6 d-flex icon">
+                     <a href="#" class="px-4 "><i class="fa-brands fa-facebook"></i></a>
+                     <a href="#" class="px-4 text-danger"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="#" class="px-4"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+</body>
+</html>
